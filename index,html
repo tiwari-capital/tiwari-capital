@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiwari Capital | Vikas Tiwari | Digital Trading Book</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#07111f;color:#fff;line-height:1.6}
+.container{max-width:1100px;margin:auto;padding:0 20px}
+nav{padding:20px 0;border-bottom:1px solid #18304d}
+.nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800}
+.logo span{color:#29d391}
+.btn{display:inline-block;background:#29d391;color:#04110c;padding:14px 24px;border-radius:10px;text-decoration:none;font-weight:800;border:0;cursor:pointer}
+.hero{padding:75px 0;text-align:center}
+.badge{display:inline-block;background:#10263c;color:#29d391;border:1px solid #1b4a48;padding:7px 14px;border-radius:30px;margin-bottom:20px}
+h1{font-size:clamp(38px,7vw,68px);line-height:1.05;margin-bottom:20px}
+h1 span{color:#29d391}
+.hero p{max-width:700px;margin:0 auto 28px;color:#b9c7d8;font-size:18px}
+.price{font-size:42px;font-weight:900;margin:25px 0}.old{text-decoration:line-through;color:#738399;font-size:20px;margin-right:8px}
+.card{background:#0c1a2b;border:1px solid #193452;border-radius:18px;padding:30px}
+.section{padding:55px 0}
+.section h2{text-align:center;font-size:34px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card h3{margin-bottom:10px;color:#29d391}.card p{color:#aebed0}
+.book{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.cover{min-height:430px;border-radius:18px;background:linear-gradient(145deg,#102e4d,#07111f);border:2px solid #29d391;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;box-shadow:0 20px 60px #0008}
+.cover h2{font-size:42px;margin:0}.cover p{color:#29d391;font-weight:bold}
+ul{list-style:none}.list li{padding:12px 0;border-bottom:1px solid #1b3048;color:#c4d0dd}.list li:before{content:"✓";color:#29d391;font-weight:bold;margin-right:10px}
+.disclaimer{font-size:13px;color:#8192a7;text-align:center;max-width:800px;margin:auto}
+footer{padding:30px 0;border-top:1px solid #18304d;color:#718399;text-align:center}
+@media(max-width:750px){.grid,.book{grid-template-columns:1fr}.hero{padding:50px 0}.cover{min-height:350px}}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="container nav">
+<div class="logo">TIWARI<span>CAPITAL</span></div>
+<a class="btn" href="#buy">Buy Now</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container">
+<div class="badge">📘 TIWARI CAPITAL • DIGITAL TRADING BOOK</div>
+<h1>Trading ko samjho.<br><span>Discipline ke saath trade karo.</span></h1>
+<p>Market structure, risk management, trading psychology aur practical chart analysis ko simple Hindi mein samajhne ke liye digital trading book.</p>
+<div class="price"><span class="old">₹999</span> ₹599</div>
+<a class="btn" href="#buy">GET THE BOOK — ₹599</a>
+</div>
+</section>
+
+<section class="section">
+<div class="container book">
+<div class="cover">
+<div>
+<p>TRADING GUIDE</p>
+<h2>SMART<br>TRADING</h2>
+<p style="margin-top:14px;color:#fff">By Vikas Tiwari</p>
+<p>Learn • Analyse • Manage Risk</p>
+</div>
+</div>
+<div>
+<h2 style="text-align:left">Is book mein kya milega?</h2>
+<ul class="list">
+<li>Market ko analyse karne ka practical framework</li>
+<li>Support, Resistance aur Market Structure</li>
+<li>Risk Management aur Stop Loss planning</li>
+<li>Trading Psychology aur Discipline</li>
+<li>Entry, SL aur TP ko plan karne ka approach</li>
+<li>Beginner-friendly Hindi explanation</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2>Why This Book?</h2>
+<div class="grid">
+<div class="card"><h3>📊 Practical</h3><p>Sirf theory nahi—chart analysis ko practical approach se samjhaya gaya hai.</p></div>
+<div class="card"><h3>🧠 Psychology</h3><p>Emotions, overtrading aur discipline jaise important topics par focus.</p></div>
+<div class="card"><h3>🛡️ Risk First</h3><p>Trading mein capital protection aur risk management ki importance.</p></div>
+</div>
+</div>
+</section>
+
+<section class="section" id="buy">
+<div class="container" style="max-width:650px">
+<div class="card" style="text-align:center">
+<h2>Get Your Digital Book</h2>
+<p>Complete digital trading book</p>
+<div class="price">₹599</div>
+<a class="btn" href="YOUR_PAYMENT_LINK_HERE">BUY NOW — ₹599</a>
+<p style="margin-top:18px;font-size:13px;color:#8192a7">Payment ke baad book delivery/access process yahan connect kiya jayega.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<p class="disclaimer"><strong>Risk Disclaimer:</strong> Trading mein financial risk hota hai. Yeh book sirf educational purposes ke liye hai. Isme di gayi information ko financial advice ya guaranteed profit ke roop mein na lein. Trade karne se pehle apni research aur risk assessment zaroor karein.</p>
+</div>
+</section>
+
+<footer>
+<div class="container">© 2026 Tiwari Capital • Vikas Tiwari • All Rights Reserved</div>
+</footer>
+
+</body>
+</html>
